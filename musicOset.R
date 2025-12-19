@@ -5,6 +5,9 @@ getwd()
 library(tidyverse)
 library(rpart)
 library(rpart.plot)
+library(rcompanion)
+
+nagelkerke(logit_mod)
 
 # Folder paths
 meta_path <- "musicoset_metadata"
