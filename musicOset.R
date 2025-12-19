@@ -195,8 +195,7 @@ ggplot(music_df, aes(x = lin_pred, y = popularity)) +
   )
 
 summary(logit_mod)
-
-
+nagelkerke(logit_mod)
 
 
 
